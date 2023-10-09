@@ -4,7 +4,7 @@ import java.util.List;
 public class Main {
 
 	public static void main(String[] args) {
-		List<Modem> modems = new LinkedList<Modem>();
+		List<Modem> modems = new LinkedList<>();
 		modems.add(new MyModem());
 		modems.add(new ZoomModem());
 		modems.add(new HayesModem());
